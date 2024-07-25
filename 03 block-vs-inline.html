@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> block-vs-inline</title>
+</head>
+<body>
+
+    <style>
+        span{
+            color: brown;
+            border: 1px dotted red;
+        }
+
+        div{
+            border: 1px solid black;
+        }
+    </style>
+
+    <div>Block 1</div>
+    <div>Block 2</div>
+    <div>Block 3</div>
+
+    <p>This is an example of using <span>inline </span><span>elements </span><span>in a paragraph</span>.</p>
+    
+    <div><p>This is a block-level element containing an inline <span>element.</span> </p></div>
+
+
+</body>
+</html>
