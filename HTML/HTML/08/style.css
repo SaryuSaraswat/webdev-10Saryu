@@ -1,0 +1,88 @@
+body{
+    background-color: #ecf0f3;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    padding-top: 10%;
+}
+
+.profile-container{
+    display: flex;
+}
+
+h3{
+    font-family: serif;
+    font-size: 25px;
+    color: #87887d;
+}
+
+h1{
+    font-size: 50px;
+}
+
+span{
+    color : #ff014f;
+}
+
+
+.profile-photo{
+    padding-left: 10%;
+}
+
+p{
+    color: #636569;
+    font-family: sans-serif;
+}
+
+img{
+    border-radius: 15%;
+}
+
+h4{
+    font-size: 15px;
+    padding-top: 5%;
+}
+
+/* .linkedin-image{
+    width: 3%;
+    height: 3%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+} */
+
+button{
+    background-color: #beb4c8;
+    width: 200px;
+    height: 60px;
+    color: #414244;
+    font-size: 15px;
+    border-color: #beb4c8;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
