@@ -28,7 +28,7 @@ span{
 
 
 .profile-photo{
-    padding-left: 10%;
+    padding-left: 12%;
 }
 
 p{
@@ -53,12 +53,12 @@ h4{
 } */
 
 button{
-    background-color: #beb4c8;
+    background-color: #cdabef;
     width: 200px;
     height: 60px;
-    color: #414244;
-    font-size: 15px;
-    border-color: #beb4c8;
+    color: #ffffff;
+    font-size: 18px;
+    border-color: #d8c9e6;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
