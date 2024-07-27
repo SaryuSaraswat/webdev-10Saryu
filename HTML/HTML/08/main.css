@@ -1,0 +1,16 @@
+.linkedin-image{
+    width: 3%;
+    height: 3%;
+    border-radius: 20%;
+}
+
+.edu-container{
+    margin: auto;
+    width: 40%;
+}
+
+.edu{
+    text-align: center;
+    font-size: 50px;
+}
+
