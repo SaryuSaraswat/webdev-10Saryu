@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffcc33, #ff6666);
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff6666;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px #ffcc33;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc33;
+    transform: scale(1.1);
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: rotate(-1deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: rotate(0deg);
+}
+
+h2 {
+    color: #ff6666;
+    font-size: 2.5em;
+    margin-top: 0;
+    border-bottom: 2px dotted #ffcc33;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px #ffcc33;
+}
+
+p {
+    font-size: 1.3em;
+    line-height: 1.8;
+    margin: 15px 0;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav a {
+        font-size: 1.2em;
+        margin: 0 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+}
