@@ -1,4 +1,39 @@
+body{
+    background-color: #ecf0f3;
+}
+
+.navbar{
+    display: flex;
+    background-color: #d1d4d7;
+}
+
+.div1, .div2, .div3, .div4{
+    padding-left: 10%;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .linkedin-image{
+    width: 3%;
+    height: 3%;
+    border-radius: 20%;
+}
+.gfg-image{
+    width: 3%;
+    height: 3%;
+    border-radius: 20%;
+}
+.github-image{
+    width: 3%;
+    height: 3%;
+    border-radius: 20%;
+}
+.leetcode-image{
+    width: 3%;
+    height: 3%;
+    border-radius: 20%;
+}
+.codechef-image{
     width: 3%;
     height: 3%;
     border-radius: 20%;
@@ -11,6 +46,140 @@
 
 .edu{
     text-align: center;
+    color: #3c3d3e;
     font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.edu-info{
+    width: 700px;
+    height: 180px;
+    background-color: #e4e9ed;
+    border-radius: 3%;
+    border-color: #d1d4d7;
+    border-bottom: lightslategray;
+    margin-bottom: 5%;
+    background: linear-gradient(to right, #dae5ed, #f1fbfb); 
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.edu-title{
+    font-size: 20px;
+    text-align: center;
+    color: #ff3366;
+    font-family: cursive;
+    padding-top: 2%;
+}
+
+.edu-para{
+    text-align:left;
+    padding-left: 5%;
+    line-height: 1.5;
+    color: #696c6d;
+}
+
+.gr{
+    padding-left: 50%;
+}
+
+.ten{
+    padding-left: 70%;
+}
+
+.twe{
+    padding-left: 73%;
+}
+
+.container-xyz {
+    gap: 40px;
+}
+
+.skills-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section h3 {
+    color: #ff3366;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.skills-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.skill {
+    margin-bottom: 15px;
+    padding-left: 5%;
+    padding-right: 20%;
+}
+
+.skill-name {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 10px;
+    position: relative;
+}
+.skill-level {
+    height: 100%;
+    background: linear-gradient(to right, #ef164d,#ea809a, #e9dada);
+    border-color: #f6698c;
+}
+
+.skill-container{
+    margin: auto;
+    width: 70%;
+}
+
+.resource{
+    padding-left: 5%;
+}
+
+.project-info{
+    padding-top: 5%;
+    width: 1000px;
+    height: 250px;
+    background-color: #e4e9ed;
+    border-radius: 3%;
+    border-color: #d1d4d7;
+    border-bottom: lightslategray;
+    margin-bottom: 5%;
+    background: linear-gradient(to right, #dae5ed, #f1fbfb); 
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-container{
+    margin: auto;
+    width: 60%;
+}
+
+.experience-container{
+    margin: auto;
+    width: 60%;
+}
+
+.exp-type{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 5%;
+    color: #ff3366;
+    font-family:monospace;
+}
