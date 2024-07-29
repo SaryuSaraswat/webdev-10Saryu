@@ -1,4 +1,157 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #0e0b16;
+    color: #fff;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slideIn 2s ease-in-out;
+}
+
+.profile-info {
+    margin-right: 50px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.profile-info h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #FF6F61;
+    animation: colorChange 3s infinite;
+}
+
+.profile-info h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #89cff0;
+}
+
+.profile-info p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #d4d4dc;
+}
+
+#text {
+    color: #FF6F61;
+}
+
+.profile-photo img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #FF6F61;
+}
+
+.button-container {
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+button {
+    background-color: #FF6F61;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    animation: pulse 2s infinite;
+}
+
+button:hover {
+    background-color: #89cff0;
+    transform: scale(1.1);
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.background-animation img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        color: #FF6F61;
+    }
+    50% {
+        color: #89cff0;
+    }
+    100% {
+        color: #FF6F61;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* body{
     background-color: #ecf0f3;
 }
 
@@ -78,4 +231,4 @@ button{
   position:relative;
   top:-0.14em;
   left:10px;
-}
+} */
