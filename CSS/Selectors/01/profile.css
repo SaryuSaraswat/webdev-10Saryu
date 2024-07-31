@@ -1,0 +1,22 @@
+h1{
+    font-size: 30px;
+    color: teal;
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 30px;
+    color: teal;
+}
+
+#photo{
+    border-radius: 1000px;
+    width: 200px;
+}
+.about-me{
+    padding: auto 40px;
+    background-color: rgb(251, 233, 210);
+}
