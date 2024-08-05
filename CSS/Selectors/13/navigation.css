@@ -1,0 +1,52 @@
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #d6d1d1;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    display: block;
+    color: rgb(73, 68, 68);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#home-link {
+    background-color: #4CAF50;
+}
+
+.navbar ul li::before {
+    content: "★";
+    color: yellow;
+    margin-right: 5px;
+}
+
+.navbar > ul > li {
+    float: left;
+}
+
+.navbar ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #e2dbdb;
+    padding: 0;
+}
+
+.navbar ul li:hover ul {
+    display: block;
+}
+
+.navbar ul li ul li a {
+    padding: 10px;
+}
+
+.navbar ul li + li {
+    margin-left: 10px;
+}
