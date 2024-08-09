@@ -1,0 +1,50 @@
+body {
+    background-image: url(/CSS/Selectors/15/sea.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #666374;
+}
+
+
+h1 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: bolder;
+    font-style:inherit;
+    text-align: center;
+    font-size: 100px;
+}
+
+nav{
+    display: flex;
+}
+
+p{
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    border-radius: 50%;
+}
+
+a{
+    color: white;
+}
+
+.para{
+    padding-top: 6%;
+    color: yellow;
+    font-size: 20px;
+    margin: 5%;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  div{
+    animation-name: example;
+  }
