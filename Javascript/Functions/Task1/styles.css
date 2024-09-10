@@ -1,0 +1,23 @@
+body{
+    padding: auto;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.greet{
+    margin: auto;
+    width: 50%;
+    background-color: rgb(255, 227, 103);
+    text-align: center;
+    padding: 2%;
+    border: 2px solid black;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+}
+button{
+    color: aliceblue;
+    background-color: green;
+}
