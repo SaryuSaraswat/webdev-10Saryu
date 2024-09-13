@@ -1,0 +1,18 @@
+
+button{
+    background-color: green;
+    color: aliceblue;
+}
+
+.box{
+    margin: auto;
+    width: 40%;
+    background-color: rgb(233, 216, 194);
+    padding: 2%;
+    padding-left: 5%;
+}
+
+p{
+    color: brown;
+    font-size: larger;
+}
