@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculate Painting Cost for Different Shapes</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Cost for Different Shapes</h1>
+        <div class="container-box">
+
+            <button id="btnT" type="button">Cost for Triangle</button>
+            <br><br>
+
+            <div id="box1" class="box1">
+                <p>Enter height of triangle :</p>
+                <input id="InTA" type="text">
+                <p>Enter base of triangle</p>
+                <input id="InTB" type="text">
+                <br><br>
+                <p>Enter cost for perSqr Unit</p>
+                <input id="InCostT" type="text">
+                <br><br>
+                <button id="subox1" type="submit">Submit</button>
+                <p><b>Cost :</b> <span id="ansTriangle"></span></p>
+            </div>
+
+            <button id="btnR" type="button">Cost for Rectangle</button>
+            <br><br>
+
+            <div id="box2" class="box2">
+                <p>Enter length of Rectangle :</p>
+                <input id="InRA" type="text">
+                <p>Enter height of Rectangle</p>
+                <input id="InRB" type="text">
+                <br><br>
+                <p>Enter cost for perSqr Unit</p>
+                <input id="InCostR" type="text">
+                <br><br>
+                <button id="subox2" type="submit">Submit</button>
+                <br><br>
+                <p><b>Cost :</b> <span id="ansRectangle"></span></p>
+            </div>
+
+            <button id="btnC" type="button">Cost for Circle</button>
+            <br><br>
+
+            <div id="box3" class="box3">
+                <p>Enter radius of Circle :</p>
+                <input id="InCA" type="text">
+                <br><br>
+                <p>Enter cost for perSqr Unit</p>
+                <input id="InCostC" type="text">
+                <br><br>
+                <button id="subox3" type="submit">Submit</button>
+                <br><br>
+                <p><b>Cost :</b> <span id="ansCircle"></span></p>
+            </div>
+
+            <button type="submit" id="submit">Reset</button>
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

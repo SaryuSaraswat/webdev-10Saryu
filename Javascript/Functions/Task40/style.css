@@ -1,0 +1,41 @@
+button[type='submit']{
+    background-color: green;
+    color: aliceblue;
+    padding: 2%;
+}
+
+button[type='button']{
+    background-color:blueviolet;
+    border-color: rgb(224, 237, 249);
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    width: 50%;
+}
+
+p{
+    font-size: 25px;
+}
+/* .btn-container{
+    text-align: center; 
+} */
+.container-box, .heading{
+    margin: auto;
+    width: 50%;
+}
+input{
+    padding: 2%;
+    width: 70%;
+}
+.heading{
+    padding: 3%;
+}
+
+.container-box{
+    padding: 5%;
+}
+
+.container{
+    background-color: #a0e8b3;
+    margin: auto;
+    width: 50%;
+}
