@@ -1,61 +1,61 @@
 
-// //define student object
-// let student = {};
+//define student object
+let student = {};
 
-// student.name = "Alice";
-// student.email = "alice2003@gmail.com";
-// student.age = 21;
+student.name = "Alice";
+student.email = "alice2003@gmail.com";
+student.age = 21;
 
-// console.log(student.name);
+console.log(student.name);
 
-// //update student age
-// student.age = 10;
-// console.log(student.age);
+//update student age
+student.age = 10;
+console.log(student.age);
 
-// //add method 
-// student.greet = "Hello, Alice !!";
-// student.greetFun = function(){
-//     return this.greet;
-// }
-// console.log(student.greetFun());
+//add method 
+student.greet = "Hello, Alice !!";
+student.greetFun = function(){
+    return this.greet;
+}
+console.log(student.greetFun());
 
-// //add nested object
-// student.address = {
-//     city : "Mathura",
-//     country : "India",
-//     pincode : 370421
-// }
-// console.log(student.address.country);
+//add nested object
+student.address = {
+    city : "Mathura",
+    country : "India",
+    pincode : 370421
+}
+console.log(student.address.country);
 
-// student.address.pincode = 370422;
-// console.log(student.address.pincode);
+student.address.pincode = 370422;
+console.log(student.address.pincode);
 
-// //create friend's object
-// let friend = {};
-// friend.name = "Bob";
-// friend.email = "bob2004@gmail.com";
-// friend.age = 20;
-// friend.address = "Karnataka";
-// friend.greet = "Hello, bob!";
-// friend.greetFun = function(){
-//     return this.greet;
-// }
+//create friend's object
+let friend = {};
+friend.name = "Bob";
+friend.email = "bob2004@gmail.com";
+friend.age = 20;
+friend.address = "Karnataka";
+friend.greet = "Hello, bob!";
+friend.greetFun = function(){
+    return this.greet;
+}
 
-// console.log(friend.greetFun());
-// console.log(friend);
+console.log(friend.greetFun());
+console.log(friend);
 
-// //create topper object
-// let topper = {};
-// topper.name = "Baloo";
-// topper.email = "baloo2004@gmail.com";
-// topper.age = 22;
-// topper.address = "Gujrat";
-// topper.greet = "Hello, baloo!";
-// topper.greetFun = function(){
-//     return this.greet;
-// }
+//create topper object
+let topper = {};
+topper.name = "Baloo";
+topper.email = "baloo2004@gmail.com";
+topper.age = 22;
+topper.address = "Gujrat";
+topper.greet = "Hello, baloo!";
+topper.greetFun = function(){
+    return this.greet;
+}
 
-// console.log(topper);
+console.log(topper);
 
 //function Constructor
 function Students (name, email, age, country, city, pincode){
