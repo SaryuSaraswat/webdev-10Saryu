@@ -1,0 +1,19 @@
+.cta-button-1, .cta-button-2{
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    margin: 20px 0;
+    width: 150px;
+    height: 50px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cta-button-1{
+    box-sizing: border-box;
+}
+
+.cta-button-2{
+    box-sizing: content-box;
+}

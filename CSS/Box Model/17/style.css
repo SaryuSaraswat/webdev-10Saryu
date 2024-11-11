@@ -1,0 +1,29 @@
+.outer-container{
+    border: 3px solid #000;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.nested-container-1{
+    border: 2px solid #007bFF;
+    padding: 15px;
+    margin: 10px;
+}
+
+.nested-container-2{
+    border: 1px solid #ff5733;
+    padding: 10px;
+    margin: 5px;
+}
+
+.independent-box-1{
+    border: 2px dashed #00cc66;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.independent-box-2{
+    border: 2px dotted #ffcc00;
+    padding: 10px;
+    margin: 15px 0;
+}
