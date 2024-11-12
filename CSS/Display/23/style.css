@@ -1,0 +1,25 @@
+.inline-container{
+    text-align: center; /*using text-align center we centered inline-elements */
+}
+
+.inline-element{
+    border: 1px solid #007bff;
+    padding: 5px;
+}
+
+.inline-block-container{
+    text-align: center; /*by using textalign center we centers the inline-block which respect to width and height */
+}
+
+.inline-block-element{
+    display: inline-block;
+    border: 1px solid #ff5733;
+    padding: 10px;
+}
+
+.block-element{
+    margin: 10px auto; /* margin auto property centers the block element horizantally, as text align does not apply to block elements */
+    width: 200px;
+    border: 2px solid #333;
+    padding: 10px;
+}

@@ -1,0 +1,23 @@
+.block-element{
+    display: block; /*takes full width and start on a new line */
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inline-element{
+    display: inline; /* sit next to each other and takes widht as much needed*/
+    border: 1px dashed #007bff;
+    padding: 5px;
+}
+
+.inline-block-element{
+    display: inline-block; /* sit next to each other but have set widht or height like block elements */
+    border: 1px solid #ff5733;
+    padding: 5px;
+    width: 100px;
+}
+
+.none-element{
+    display: none; /* none do not appear on the page and do not take any space */
+}

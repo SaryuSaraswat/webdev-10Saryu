@@ -1,0 +1,38 @@
+.block-element-default , .block-element-fixed{
+    display: block;
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/*
+default width takes full width and fixed takes as given widht only
+*/
+.block-element-fixed{
+    width: 300px;
+}
+
+.inline-element-fixed , .inline-element-default{
+    display: inline;
+    border: 1px dashed #007bff;
+    padding: 5px;
+} 
+
+/*
+inline-element default or fixed both takes as much width needed
+*/
+.inline-element-fixed{
+    width: 100px;
+}
+
+/*
+inline-block-element default takes up width only needed and fixed respects the width settings.
+*/
+.inline-block-element-fixed, .inline-block-element-default{
+    display: inline-block;
+    border: 1px solid #ff5733;
+    padding: 5px;
+}
+
+.inline-block-element-fixed{
+    width: 150px;
+}
