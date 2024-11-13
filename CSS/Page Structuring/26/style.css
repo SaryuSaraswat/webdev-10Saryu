@@ -1,0 +1,37 @@
+.column-2, .column-3{
+    float: left;
+    border: 1px solid #ddd ;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    background-color: #f0f0f0;
+}
+
+.column-2{
+    width: 50%;
+}
+
+.column-3{
+    width: 33.3%;
+}
+
+.header, .footer , .main-content {
+    border: 2px solid black;
+}
+
+.header, .footer {
+    background-color: #4caf50;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}

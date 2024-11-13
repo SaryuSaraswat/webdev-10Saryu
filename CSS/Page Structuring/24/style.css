@@ -1,0 +1,30 @@
+.column-2, .column-3{
+    display: inline-block; /*it allows column to sit next to each other*/
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box; /*to ensure padding and border included in width*/
+}
+
+.column-2{
+    width: 49%; /* with 1% gap we can differentiate the columns*/
+}
+
+.column-3{
+    width: 33%;
+}
+
+.header, .footer , .main-content{
+    border: 2px solid black;
+}
+
+.header, .footer{
+    background-color: #4caf50;
+    height: 50px;
+    text-align: center;
+}
+
+.row{
+    margin-bottom: 20px;
+}

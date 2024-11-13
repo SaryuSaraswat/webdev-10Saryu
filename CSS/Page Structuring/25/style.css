@@ -1,0 +1,18 @@
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.second-paragraph{
+    clear: left; 
+    /*by applying this it prevents the p from appearing beside the left floated element pushing it down below the image */
+
+    /* clear: right; */
+    /* the second p will move slightly down, clearing the second img on the right and start below it.*/
+
+    /* clear: both; */
+    /*This ensures that the paragraph starts on a completely new line, below all floated elements, even if there were more floated elements on the left or right.*/
+}
