@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    border: 2px dashed black;
+    width: 500px;
+    margin: auto; /* to center the container */
+}
+
+.box {
+    box-sizing: border-box;
+    background-color: #c3dbeb;
+    border: 2px solid #608ba8;
+    height: 100px;
+}
+
+.box1, .box2, .box3{
+    flex-basis: 100px; /*each box takes 100px and covers 300px and leave space 200px*/
+}
+
+/* .box1{
+    flex-grow: 3;
+}
+
+.box2{
+    flex-grow: 0;
+}
+
+.box3{
+    flex-grow: 2;
+} */
+
+/*
+   available 200px is distributed among the boxes in the ratio of 2:1:1,
+   which is 100px, 50px and 50px, resulting in final widths of 200px (100px+100px) for "Box 1", 
+   and 150px (100px+50px) for "Box 2" and "Box 3".
+*/
+
+/*
+Understand that flex-grow allows boxes to increase their size proportionally to 
+fill the available space when there is extra space in the container.
+*/
+
+/* .box1{
+    flex-shrink: 0;
+}
+
+.box2{
+    flex-shrink: 0;
+}
+
+.box3{
+    flex-shrink: 0;
+} */
+
+/* .box1{
+    flex-shrink: 1;
+}
+
+.box2{
+    flex-shrink: 1;
+}
+
+.box3{
+    flex-shrink: 2;
+} */
+
+/*
+100px is distributed among the boxes in the ratio of 1:1:2, which is 25px, 25px and 50px, resulting in final widths of 175px (200px-25px) for "Box 1", 175px (200px-25px) for "Box 2", and 150px (200px-50px) for "Box 3`.
+*/
+

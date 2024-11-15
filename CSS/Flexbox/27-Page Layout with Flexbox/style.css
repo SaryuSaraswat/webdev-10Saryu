@@ -1,0 +1,33 @@
+.row{
+    display: flex;
+    margin-bottom: 20px; /* to separate rows */
+}
+
+.column-2{
+    width: 50%;
+}
+
+.column-3{
+    width: 33.3%;
+}
+
+.column-2, .column-3{
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box; /*to ensure padding and border are included in width*/
+    height: 200px;
+    background-color: #f0f0f0;
+}
+
+.header, .footer, .main-content{
+    border: 2px solid black;
+}
+
+.header, .footer{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:  #4CAF50 ;
+}
+
+
