@@ -3,6 +3,7 @@
     border: 2px dashed black;
     margin: auto;
     flex-wrap: wrap;
+    width: 500px;
 }
 
 .box{
