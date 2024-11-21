@@ -13,19 +13,19 @@
 }
 
 .box1, .box2, .box3{
-    flex-basis: 100px; /*each box takes 100px and covers 300px and leave space 200px*/
+    flex-basis: 200px; /*each box takes 100px and covers 300px and leave space 200px*/
 }
 
 /* .box1{
-    flex-grow: 3;
+    flex-grow: 2;
 }
 
 .box2{
-    flex-grow: 0;
+    flex-grow: 1;
 }
 
 .box3{
-    flex-grow: 2;
+    flex-grow: 1;
 } */
 
 /*

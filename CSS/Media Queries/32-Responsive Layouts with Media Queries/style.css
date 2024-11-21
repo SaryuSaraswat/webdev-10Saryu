@@ -1,0 +1,51 @@
+.column-2 , .column-3{
+    height: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box; /* ensure padding and border is included */
+    background-color: #f0f0f0;
+}
+
+.header, .main-content, .footer{
+    border: 2px solid black;
+}
+
+.header, .footer{
+    background-color: #4caf50;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-content{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.column-2{
+    width: 50%;
+}
+
+.column-3{
+    width: 33.3%;
+}
+
+@media (max-width : 768px) {
+  
+    .row{
+      flex-direction: column ;
+    }
+    .column-2 , .column-3{
+      width: 100%;
+    }
+    
+    .header, .footer{
+      line-height: 50px;
+    }
+  }
+  
+  

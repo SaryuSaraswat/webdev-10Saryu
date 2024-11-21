@@ -14,7 +14,7 @@
 }
 
 .box1, .box2, .box3{
-    flex-basis: 200px;
+    flex-basis: 200px; /*change to 200px */
 }
 
 .box1{
